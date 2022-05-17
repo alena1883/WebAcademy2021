@@ -1,0 +1,75 @@
+*{
+box-sizing: border-box;
+}
+
+.topnav{
+  background-color: #fb9b2d;
+  overflow: hidden;
+  text-align: center;
+  border: 5px solid black;
+}
+/* style the links inside the navigation bar */
+.topnav a{
+  color: #fff700;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 24px 26px;
+  font-size: 50px;
+}
+.topnav a:hover{
+  background-color: #f9c32f; 
+  color: #f58a0f;
+}
+/*Creates 3 equal columns that float next to each other*/
+.column{
+  float: left;
+  width:33.33%;
+  padding:25px;
+  background-color: #ff1414;;
+  border:5px outset  rgb(82, 169, 255);
+  text-align: center;
+}
+
+h1 {
+  color: orange;
+  font-size: 50px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sun {
+  height: 400px;
+  width: 260px;
+  border: 8px solid black;
+  position: relative;
+  left: 580px;
+  bottom: 10px;
+}
+p {
+    border: 5px solid black;
+  font-size: 22px;
+}
+.sunshine {
+  height: 400px;
+  width: 550px;
+  border: 8px solid black;
+  position: relative;
+  left: 430px;
+  bottom: -5px;
+}
+.sunny {
+  height: px;
+  width: px;
+  position: relative;
+  left: 450px;
+  bottom: -15px;
+}
+body {
+  background-color: yellow;
+}
+
+a {
+  font-size: 38px;
+  color: orange;
+  font-weight: bold;
+}

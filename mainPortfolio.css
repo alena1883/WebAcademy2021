@@ -1,0 +1,46 @@
+/* idk what im doing */
+*{
+box-sizing: border-box;
+}
+body{
+  background-color: lightskyblue;
+  color: black;
+}
+/* Style of the header */
+
+.header{
+  background-color: lightskyblue;
+  padding: 20px;
+  text-align: center;
+  color: rgb(180, 132, 228)
+}
+
+/* style of the navigation bar */
+.topnav{
+  background-color: rgb(203, 186, 243);
+  overflow: hidden;
+}
+/* style the links inside the navigation bar */
+.topnav a{
+  color: rgb(63, 150, 238);
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+.topnav a:hover{
+  background-color: rgb(183, 154, 238);
+  color: rgb(209, 189, 252)
+}
+/*Creates 3 equal columns that float next to each other*/
+.column{
+  float: left;
+  width:33.33%;
+  padding:15px;
+  background-color: rgb(209, 189, 252);
+  border:5px outset  rgb(82, 169, 255);
+  text-align: center;
+}
+.kevin{
+  
+}

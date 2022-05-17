@@ -1,0 +1,127 @@
+*{
+margin: 0;
+padding: 0;
+  box-sizing:border-box;
+  font-family:"Helvetica", sabs-serif;
+}
+/* this code is to change the body of the html */
+
+body{
+  background-color: rgba (32, 43, 57, 1);
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  position: relative;
+}
+/* this is to change position of the register box on the page */
+.wrapper {
+  display: block;
+  background-color: lightskyblue;
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 4px;
+  outline: black solid, 7px;
+  outline-offset: -15px;
+  overflow: hidden;
+}
+/* this code is to change the register box */
+.section_userform {
+width: 75%;
+display: block;
+  margin: 0 auto;
+  color: black;
+} 
+/* this is to change the text akign */
+.input_label {
+  width: 35%;
+  text-align: right;
+  font-size: 1.5em;
+  color: black;
+}
+.break {
+  display: block;
+  width: 100%;
+  margin: 2em 0;
+}
+.textbox {
+width: 50%;
+height: 1.8em;
+  box-sizing:content-box;
+  background-color: white;
+  border-color: black;
+  padding-left: 1em;
+  color: black;
+}
+.button {
+  display:block;
+  margin: none;
+  padding: 0.5em 2.5em;
+  text-transform: uppercase;
+  background-color: white;
+  border-color: black;
+  font-size: 1.3em;
+  border-width: 3px;
+  border-radius: 10px;
+  border-style: solid;
+  padding-left: 1em;
+  color: black;
+}
+.button:hover {
+  background-color: lightblue;
+  color: black;
+  border-color: black;
+  transform: scale(1.05);
+}
+.buttonWrapper{
+  display: grid;
+  justify-content: center;
+  
+}
+.section_info{
+  text-align: center;
+  margin: 1em;
+  color: black;
+}
+.section_info h1 {
+  font-size: 5em;
+}
+#line {
+  border-color: black;
+  width: 80%;
+  margin-bottom: 4em;
+}
+.result {
+  width: 45%;
+  text-align: left;
+  display: inline-block;
+  font-size: 1.5em;
+  color: red;
+}
+.result_label {
+  width: 40%;
+  text-align: right;
+  display: inline-block;
+  font-size: 1.5em;
+  color: red;
+}
+#before {
+  opacity: 1;
+  display: block;
+}
+#after {
+  display: none;
+  opacity: 0;
+}
+#input_username_button: #after {
+  display: block;
+  opacity: 1;
+}
+#input_username_button:focus #before {
+  display: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 800px;
+}
